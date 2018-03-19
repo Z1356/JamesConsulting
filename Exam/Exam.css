@@ -1,0 +1,129 @@
+* {
+  /*border: 1px solid red;*/
+  margin: 0px auto;
+  font-family: sans-serif;
+}
+.wrapper {
+  width: 920px;
+  height: 1080px;
+  background-color: #062134;
+}
+
+
+/* HEADER SECTION */
+.header {
+  background-color: #062134;
+}
+.header h1 {
+  color: white;
+  font-weight: 400;
+  display: inline-block;
+  margin: 20px 25px;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+.header .blue {
+  color: #1b94e0;
+}
+.header .darkblue {
+  color: #255375;
+  padding-left: 50px;
+}
+
+
+/* HOME SECTION */
+.home {
+  background-color: white;
+  margin: 0px 10px 0px 10px;
+}
+.home #banner {
+  margin: 20px;
+  width: 856px;
+}
+
+/* INFOBOX SECTION */
+.infobox {
+  width: 269px;
+  background-color: #1367a8;
+  font-weight: 200;
+  margin: 0px 0px 35px 20px;
+  color: white;
+  display: inline-block;
+}
+.infobox img {
+  background-color: white;
+  display: inline-block;
+  border-radius: 100%;
+  margin: 15px;
+  width: 40px;
+}
+.infobox h1 {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 26px;
+  position: relative;
+  bottom: 25px;
+  right: 10px;
+}
+.infobox p {
+  width: 230px;
+}
+.infobox button {
+  background-color: #1a92de;
+  font-weight: 200;
+  margin: 30px 20px 20px 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+/* INFO SECTION */
+.home .info {
+  width: 269px;
+  display: inline-block;
+  margin: 0px 0px 20px 20px;
+}
+.home .info h2 {
+  margin-bottom: 20px;
+  font-size: 18.75px;
+  font-weight: 100px;
+}
+.home .info .qoute {
+  background-color: #dbedff;
+  font-size: 16px;
+  padding: 20px;
+}
+.home .info a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #5d8eb2;
+}
+.home .info .name {
+  font-size: 14px;
+  padding-top: 20px;
+}
+.home .info p {
+  font-size: 14px;
+  margin: 5px 0px 5px 0px;
+}
+
+/* ENDER SECTION */
+.ender {
+  background-color: #dbedff;
+  margin: 1.25px 10px 10px 10px;
+  text-align: center;
+  padding: 20px;
+}
+.ender .on {
+  color: #abd3f3;
+}
+.ender a {
+  font-size: 14px;
+  margin: 5px;
+  text-decoration: none;
+  color: #5d8eb2;
+}
